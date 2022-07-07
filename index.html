@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trisha Sia</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e71f8bf7e9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HOME -->
+    <header id="home">
+        <!-- NAVBAR -->
+        <nav id="nav">
+            <div class="logo">
+                <a href="#home" class="link"><h3>Trisha <span>Sia</span></h3></a>
+            </div>
+
+            <ul class="links">
+                <li>
+                    <a href="#about" class="link">About</a>
+                </li>
+                <li>
+                    <a href="#projects" class="link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="link">Contact</a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1KjL8IXqplNsgAaDAR8ReZcViesXtfeNS/view?usp=sharing" class="link">Resume</a>
+                </li>
+            </ul>
+
+            <!-- HAMBURGER MENU -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <!-- HERO -->
+        <div class="hero">
+            <h1 class="h1">Hi, I'm a <span class="animate"></span></h1>
+            <p class="welcome" id="welcome">
+                Welcome to my portfolio!
+            </p>
+            <div class="hero-btn">
+                <a href="#about" class="about" id="about-btn"><span>Get to know me </span><i class="fa-solid fa-angle-down"></i></a>
+            </div>
+        </div>
+
+    </header>
+    <!-- ABOUT ME -->
+    <section id="about">
+        <div class="container-about">
+            <div class="about-me" id="about-me">
+                <h2><span>About</span> Me</h2>
+                <p>
+                    Hi there! I'm Trisha. I'm currently a rising sophomore studying Business and
+                    Computer science at the University of British Columbia. I am passionate about 
+                    <span>finding creative solutions</span> to problems and <span>helping make lives easier</span>.
+                </p>
+                <p>
+                    A few technologies I've worked with are <span>Javascript</span>, <span>HTML/CSS</span>, <span>Python</span>, <span>Java</span>, and <span>Figma</span>.
+                </p>
+                <p>
+                    Outside coding, you can find me <span>learning a new language</span>, <span>reading books</span>, <span>painting</span>, 
+                    or <span>playing the piano</span>!
+                </p>
+            </div>
+            <div class="right-about">
+                <div class="student-img">
+                    <img src="images/student-img.JPG" height="300px" width="300px" id="my-img">
+                </div>
+                <div class="resume-btn">
+                    <a href="https://drive.google.com/file/d/1KjL8IXqplNsgAaDAR8ReZcViesXtfeNS/view?usp=sharing" class="view-resume" id="view-resume-btn"><span>View my resume </span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="header" id="header">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <!-- FEATURED -->
+        <div class="container-projects">
+            <div class="project">
+                <div class="project-img-container right-align">
+                    <img class="project-preview right-side project-img" src="images/weather-app.png">
+                </div>
+                <div class="project-details">
+                    <div class="details-container">
+                      <div class="details-text">
+                        <p class="featured">Featured Project</p>
+                        <h3 class="project-title">Weather App</h3>
+                        <p class="project-description">A weather web application that displays weather data based on an inputted city.</p>
+                        <p class="language"> HTML &nbsp; CSS &nbsp; Javascript</p>
+                      </div>
+                      <div class="details-buttons left-align">
+                        <a href="https://tdanielles.github.io/weather-app/" class="project-button" id="view-site-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/tdanielles/weather-app" class="project-button" id="view-repo-btn"><i class="fa-brands fa-github-alt"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-img-container left-align">
+                    <img class="project-preview left-side project-img" src="images/to-do.png">
+                </div>
+                <div class="project-details left-details">
+                    <div class="details-container">
+                      <div class="details-text">
+                        <p class="featured">Featured Project</p>
+                        <h3 class="project-title">do.me</h3>
+                        <p class="project-description">A to-do app that allows users to create different projects for various tasks.</p>
+                        <p class="language"> HTML &nbsp; CSS &nbsp; Javascript</p>
+                      </div>
+                      <div class="details-buttons">
+                        <a href="https://tdanielles.github.io/to-do-list/" class="project-button" id="view-site-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/tdanielles/to-do-list" class="project-button" id="view-repo-btn"><i class="fa-brands fa-github-alt"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-img-container right-align">
+                    <img class="project-preview right-side project-img" src="images/library.png">
+                </div>
+                <div class="project-details">
+                    <div class="details-container">
+                      <div class="details-text">
+                        <p class="featured">Featured Project</p>
+                        <h3 class="project-title">library</h3>
+                        <p class="project-description">A library web app that allows users to add and remove books to a bookshelf.</p>
+                        <p class="language"> HTML &nbsp; CSS &nbsp; Javascript</p>
+                      </div>
+                      <div class="details-buttons left-align">
+                        <a href="https://tdanielles.github.io/library/" class="project-button" id="view-site-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/tdanielles/library" class="project-button" id="view-repo-btn"><i class="fa-brands fa-github-alt"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- OTHERS -->
+        <div class="header" id="header">
+            <h2><span>Others</span></h2>
+        </div>
+        <div class="container">
+            <div class="card" id="card">
+                <div class="card-img card6"></div>
+                <div class="card-text">
+                    <h2>Boba Tracks</h2>
+                    <p class="description">A web app for Hydra Hacks 2022 that lets users track the amount of calories in their bubble tea drink.</p>
+                    <p class="tech">HTML &nbsp; CSS &nbsp; Javascript</p>
+                </div>
+                <div class="card-buttons">
+                    <a href="https://tdanielles.github.io/boba-tracks/" class="demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/tdanielles/boba-tracks" class="code"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <div class="card-img card5"></div>
+                <div class="card-text">
+                    <h2>Tic Tac Toe</h2>
+                    <p class="description">A Tic Tac Toe web game where 2 players can play against each other.</p>
+                    <p class="tech">HTML &nbsp; CSS &nbsp; Javascript</p>
+                </div>
+                <div class="card-buttons">
+                    <a href="https://tdanielles.github.io/tic-tac-toe/" class="demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/tdanielles/tic-tac-toe" class="code"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <div class="card-img card4"></div>
+                <div class="card-text">
+                    <h2>Animal Crossing Calculator</h2>
+                    <p class="description">An Animal Crossing-themed calculator; works like a normal one!</p>
+                    <p class="tech">HTML &nbsp; CSS &nbsp; Javascript</p>
+                </div>
+                <div class="card-buttons">
+                    <a href="https://tdanielles.github.io/animal-crossing-calculator/" class="demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/tdanielles/animal-crossing-calculator" class="code"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <div class="card-img card3"></div>
+                <div class="card-text">
+                    <h2>Rock Paper Scissors</h2>
+                    <p class="description">A rock, paper, scissors web game against a computer.</p>
+                    <p class="tech">HTML &nbsp; CSS &nbsp; Javascript</p>
+                </div>
+                <div class="card-buttons">
+                    <a href="https://tdanielles.github.io/rock-paper-scissors/" class="demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/tdanielles/rock-paper-scissors" class="code"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <div class="card-img card2"></div>
+                <div class="card-text">
+                    <h2>Messenger Chat App</h2>
+                    <p class="description">A client-server chat application allowing two computers to communicate with each other.</p>
+                    <p class="tech">Java</p>
+                </div>
+                <div class="card-buttons">
+                    <a href="https://github.com/tdanielles/Messenger-Client-Server-ChatApplication" class="code"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <div class="card-img card1"></div>
+                <div class="card-text">
+                    <h2>Space Invaders Clone</h2>
+                    <p class="description">A space invaders clone with OOP and Pygame containing levels, lives, and point and high score systems.</p>
+                    <p class="tech">Python</p>
+                </div>
+                <div class="card-buttons">
+                    <a href="https://github.com/tdanielles/Space-Invaders-Clone" class="code"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="contact-me" id="contact-me">
+            <h2>Get in <span>Touch</span></h2>
+            <p>If you have any opportunities to share, any topic to discuss, or just want to say hello, 
+                my inbox is always open! 
+            </p>
+            <div class="contact-btn">
+                <a href="mailto: trisha.d.sia@gmail.com" class="contact" id="contact-btn"><span>Say hello </span><i class="fa-solid fa-paper-plane"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="icon-container">
+            <a href="mailto: trisha.d.sia@gmail.com" class="mail" id="mail-btn"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/trisha-sia/" class="linkedin" id="linkedin-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/tdanielles" class="github" id="github-btn"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <h3>Designed & Built by Trisha Sia</h3>
+    </section>
+</body>
+</html>
