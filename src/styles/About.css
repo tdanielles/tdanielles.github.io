@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    padding: 150px;
+}
+
+.girl {
+    width: 500px;
+    height: auto;
+}
+
+.title {
+    font-size: 60px;
+    margin: 0 0 10px 0;
+}
+
+.about .find {
+    margin-bottom: 0;
+}
+
+.about ul {
+    margin-top: 0;
+}
+
+.about p, li {
+    font-size: 23px;
+    font-weight:lighter;
+    line-height: 30px;
+}
+
+.about-img {
+    display: flex;
+    align-items: center;
+}
+
+.about a {
+    color: #38429d;
+}
+
+.about a:hover {
+    color: #38429da7;
+}

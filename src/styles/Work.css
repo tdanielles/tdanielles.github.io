@@ -1,0 +1,13 @@
+.title-work {
+  font-size: 60px;
+}
+
+.work {
+  padding: 50px 150px 150px 150px;
+}
+
+.work .collapsible {
+  display: flex;
+  justify-content:space-between;
+}
+  

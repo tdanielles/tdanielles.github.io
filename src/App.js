@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import { useState } from "react";
+import Main from "./pages/Main";
+import Allprojects from "./pages/Allprojects";
+import "./styles/App.css";
 
 function App() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const onMenuClick = (x) => {
+    setIsNavOpen(x);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar isNavOpen={isNavOpen} onMenuClick={onMenuClick}/>
+      <Routes>
+          <Route path="/" element={<Main/>}/>
+          <Route path="/projects" element={<Allprojects/>}/>
+      </Routes>
+      <footer>Created with ♡ by Trisha Sia, © 2023</footer>
+    </>
+    
+    
   );
 }
 
