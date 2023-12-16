@@ -3,12 +3,12 @@ html {
 }
 
 * {
-    font-family: 'Crimson Pro', serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 body {
     background-color: #fffbf5;
-    color: #38429d;
+    color: #2a2a2a;
 }
 
 footer {
