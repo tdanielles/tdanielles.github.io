@@ -1,15 +1,19 @@
 .about {
     display: flex;
     padding: 150px;
+    gap: 100px;
+    align-items: center;
 }
 
 .girl {
-    width: 500px;
+    width: 400px;
     height: auto;
+    border-radius: 40px;
 }
 
 .title {
     font-size: 60px;
+    font-weight: 800;
     margin: 0 0 10px 0;
 }
 
@@ -19,11 +23,12 @@
 
 .about ul {
     margin-top: 0;
+    list-style-type: none;
+    margin-left: -40px;
 }
 
 .about p, li {
-    font-size: 23px;
-    font-weight:lighter;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -33,9 +38,13 @@
 }
 
 .about a {
-    color: #38429d;
+    color: #36687d;
 }
 
 .about a:hover {
-    color: #38429da7;
+    color: #4c96b6;
+}
+
+.about-text p, li {
+    line-height: 1.6;
 }

@@ -11,7 +11,7 @@ function Work() {
 
     return (
         <div id="work" className="work" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="800">
-            <h1 className="title-work">My experience.</h1>
+            <h1 className="title-work">⚙️ Experience</h1>
             
             <Collapsible position="Explore Intern" 
                          company="Microsoft" 

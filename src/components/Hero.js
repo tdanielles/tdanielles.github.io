@@ -18,9 +18,9 @@ function Hero() {
                 <a href="mailto: trisha.d.sia@gmail.com" target="_blank"><img src="images/mail-logo.png"/></a>
             </div>
             <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)}>
-                <div class="arrow-down">
-                    <div class="left"></div>
-                    <div class="right"></div>
+                <div className="arrow-down">
+                    <div className="left"></div>
+                    <div className="right"></div>
                 </div>
             </HashLink>
         </div>

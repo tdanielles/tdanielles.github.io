@@ -26,6 +26,7 @@
     animation: fadeInAnimation ease 1.5s;
     text-align: center;
     max-width: 500px;
+    margin-bottom: 30px;
 }
 
 .socials {
@@ -34,28 +35,16 @@
     gap: 40px;
 }
 
-.container {
-    animation: fadeInAnimation ease 2.5s;
+.socials a:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 
 .hero p {
     font-size: 20px;
 }
 
-.desc {
-    margin-bottom: 30px;
-}
-
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
-
-.arrow-down{
+.arrow-down {
     width:60px;
     height:40px;
     margin:0 0 0 -30px;
@@ -66,11 +55,11 @@
     
   }
   
-  .arrow-down:hover{
-     animation-play-state: paused;
-  }
+.arrow-down:hover{
+    animation-play-state: paused;
+}
   
-  .left{
+.left{
     position:absolute;
     height:10px;
     width:40px;
@@ -81,9 +70,9 @@
     border-radius:4px;
     transform-origin:5px 50%;
     animation: leftArrow 0.5s 1s infinite ease-out alternate;
-  }
+}
   
-  .right{
+.right{
     position:absolute;
     height:10px;
     width:40px;
@@ -94,30 +83,30 @@
     border-radius:4px;
     transform-origin:5px 50%;
     animation: rightArrow 0.5s 1s infinite ease-out alternate;
-  }
+}
   
-  @keyframes arrow{
+@keyframes arrow{
     0% {
       bottom:0px;
     }
     100%{
       bottom:40px;
     }
-  }
+}
   
   
-  @keyframes leftArrow{
+@keyframes leftArrow{
     0% {
     }
     100%{
       transform:rotate(225deg);
     }
-  }
+}
   
-  @keyframes rightArrow{
+@keyframes rightArrow{
     0% {
     }
     100%{
       transform:rotate(-45deg);
     }
-  }
+}
