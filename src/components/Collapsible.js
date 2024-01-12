@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "../styles/Collapsible.css";
+import CollapsibleContent from "./CollapsibleContent";
 function Collapsible(props) {
-    const { position, company, skills, description } = props;
+    const { logo, company, contents } = props;
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -9,35 +10,32 @@ function Collapsible(props) {
         setIsOpen(s => !s);
     }
 
-    const styles = {
-        content: {
-            maxHeight: isOpen ? "300px" : 0,
-            transition: 'max-height 1s ease',
-            overflow: "hidden",
-        }
-    }
+    // const styles = {
+    //     content: {
+    //         maxHeight: isOpen ? "500px" : 0,
+    //         transition: 'max-height 1s ease',
+    //         overflow: "hidden",
+    //     }
+    // }
     return (
         <div className="work-container">
             <div className="collapsible" onClick={handleClick}>
-                <div>
-                    <h1 className="position">{position}</h1>
-                    <p className="company">{company}</p>
-                    <div className="skills">
-                    {skills.map((element) => (
-                        <div className="skill">{element}</div>
-                    ))}
-                    </div>
+                <div className="work-header">
+                    <img className="company-logo" src={logo}/>
+                    <h1 className="company">{company}</h1>
                 </div>
                 <div>
-                    { isOpen ? <img src="/images/minus.svg"/> : <img src="/images/plus.svg"/>}
+                    { isOpen ? <img className="work-toggle" src="/images/arrow-up.png"/> : <img className="work-toggle" src="/images/arrow-down.png"/>}
                 </div>
             </div>
-            { 
-                <ul className="content" style={styles.content}>
-                    {description.map((element) => (
-                        <li>{element}</li>
-                    ))}
-                </ul> }
+            { isOpen && contents.map((content) => (
+                <CollapsibleContent
+                position={content[0]}
+                skills={content[1]}
+                description={content[2]}
+                date={content[3]} />
+            ))
+            }
         </div>      
     )
 }
