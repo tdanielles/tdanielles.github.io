@@ -11,4 +11,37 @@
   display: flex;
   justify-content:space-between;
 }
-  
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons {
+  background-color: #f7f5f0;
+  padding: 10px 10px;
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  padding: 5px 30px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.buttons button:hover {
+  background-color: #36687d;
+  color: #fffbf5;
+}
+
+.active {
+  background-color: #36687d !important;
+  color: #fffbf5;
+  font-weight: 600;
+}
