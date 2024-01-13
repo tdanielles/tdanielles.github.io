@@ -32,8 +32,6 @@ function Menu(props) {
                 <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">About me.</HashLink>
                 <HashLink smooth to="/#work" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">My experience.</HashLink>
                 <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">Featured projects.</HashLink>
-                <HashLink smooth to="/#contact" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">Contact me.</HashLink>
-                <a className="link-underline" href="https://drive.google.com/file/d/18y7eNlS3w3PcCGgV4AprJLcITkvkklim/view?usp=share_link" target="_blank" onClick={handleClick}>My resume.</a>
             </div>}
         </div>
     )
