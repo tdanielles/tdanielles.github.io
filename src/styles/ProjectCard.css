@@ -1,0 +1,32 @@
+.project {
+    border-radius: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.259);
+    transition: 0.3s ease;
+}
+  
+.project-image {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    /* object-fit: cover; */
+}
+  
+.project-title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.project-desc {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.project-info {
+    padding: 0px 20px;
+}
