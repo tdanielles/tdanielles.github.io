@@ -2,34 +2,46 @@
     padding: 0px 150px 150px 150px;
 }
 
-.all-projects button {
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: lighter;
-    border-radius: 12px;
-    border: 1px solid #36687d;
-    background: none;
-    color: #36687d;
-}
-
-.all-projects button:hover {
-    color: #fffbf5;
-    background-color: #36687d;
-    transition: 0.2s ease-in-out;
-    cursor: pointer;
-}
-
 .all-projects .title-work {
     margin: 0;
 }
 
 .all-projects .intro-desc {
     font-size: 20px;
-    font-weight: lighter;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 .all-projects .intro {
     text-align: center;
+}
+
+.projects-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.links {
+    margin: 0;
+    color: #36687d;
+}
+
+.links a {
+    text-decoration: none;
+    color: #36687d;
+}
+
+.links a:hover {
+    color: #7f98a3;
+}
+
+.project-desc {
+    margin: 10px 0px;
 }

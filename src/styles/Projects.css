@@ -5,12 +5,8 @@
     font-size: 20px;
 }
 
-.github a {
-    color: #38429d;
-}
-
-.github a:hover {
-    color: #38429da7;
+.github img {
+    width: 50px;
 }
 
 .projects {
@@ -30,9 +26,8 @@
 .more-projects button {
     padding: 10px 20px;
     font-size: 20px;
-    font-weight: lighter;
     border-radius: 12px;
-    border: 1px solid #36687d;
+    border: 1.5px solid #36687d;
     background: none;
     color: #36687d;
 }
