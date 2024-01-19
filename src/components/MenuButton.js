@@ -17,7 +17,7 @@ function MenuButton(props) {
         line: {
           height: '3px',
           width: '30px',
-          background: isNavOpen ? '#fffbf5':'#38429d',
+          background: '#36687d',
           transition: 'all 0.2s ease',
         },
         lineTop: {

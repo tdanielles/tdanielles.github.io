@@ -8,7 +8,7 @@ function Navbar(props) {
     return (
         <div className="navbar">
             <div className="logo-nav">
-                <HashLink to="/#"><img src="/images/logo-nav.png"/></HashLink>
+                <HashLink to="/#"><p>ts</p></HashLink>
             </div>
 
             <div>

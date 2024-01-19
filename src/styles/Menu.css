@@ -9,14 +9,19 @@
 .overlay-content a {
     text-decoration: none;
     animation: fadeIn 1.5s;
-    color: #fffbf5;
+    color: #2a2a2a;
     font-size: 36px;
+    font-weight: 700;
     z-index: 5;
+}
+
+.overlay-content a:hover {
+    color: #36687d;
 }
 
 .link-underline {
     border-bottom-width: 0;
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#fffbf5, #fffbf5);
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#36687d, #36687d);
     background-size: 0 3px;
     background-position: 0 100%;
     background-repeat: no-repeat;

@@ -15,7 +15,7 @@ function Allprojects() {
         <h1 className="title-work">🧚‍♀️ All Projects 🧚‍♀️</h1>
         <p className="intro-desc">
           A collection of all projects I've done since I started learning how to
-          code.
+          code :&#41;
         </p>
       </div>
       <div className="project-collapsible">
