@@ -9,14 +9,17 @@ function Hero() {
 
     return (
         <div className="hero" id="hero">
-            <p className="two">Hey there,</p>
-            <h1 className="three">I'm Trisha 👋</h1>
-            <p className="desc">an aspiring software engineer studying Business and Computer Science at UBC</p>
-            <div className="socials">
-                <a href="https://www.linkedin.com/in/trisha-sia/" target="_blank"><img src="images/linkedin-logo.png"/></a>
-                <a href="https://github.com/tdanielles" target="_blank"><img src="images/github-logo.png"/></a>
-                <a href="mailto: trisha.d.sia@gmail.com" target="_blank"><img src="images/mail-logo.png"/></a>
+            <div className="main-content">
+                <p className="two">Hey there,</p>
+                <h1 className="three">I'm Trisha 👋</h1>
+                <p className="desc">an aspiring software engineer studying Business and Computer Science at UBC</p>
+                <div className="socials">
+                    <a href="https://www.linkedin.com/in/trisha-sia/" target="_blank"><img src="images/linkedin-logo.png"/></a>
+                    <a href="https://github.com/tdanielles" target="_blank"><img src="images/github-logo.png"/></a>
+                    <a href="mailto: trisha.d.sia@gmail.com" target="_blank"><img src="images/mail-logo.png"/></a>
+                </div>
             </div>
+            
             <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)}>
                 <div className="arrow-down">
                     <div className="left"></div>

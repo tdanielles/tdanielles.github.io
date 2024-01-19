@@ -13,7 +13,7 @@ function Projects() {
     return (
         <div id="projects" className="projects" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="800">
             <div className="github">
-                <h1 className="title-work">💡 Featured Projects</h1>
+                <h1 className="title-work">💡 Projects</h1>
                 <a href="https://github.com/tdanielles" target="_blank"><img src="images/github-logo.png"/></a>
             </div>
             <div className="projects-grid">
