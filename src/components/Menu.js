@@ -29,6 +29,7 @@ function Menu(props) {
     return (
         <div style={styles.overlay}>
             {isNavOpen && <div className="overlay-content">
+                <HashLink smooth to="/#" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">🏠 Home 🏠</HashLink>
                 <HashLink smooth to="/#about" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">👩🏻‍💻 About 👩🏻‍💻</HashLink>
                 <HashLink smooth to="/#work" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">⚙️ Experience ⚙️</HashLink>
                 <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)} onClick={handleClick} className="link-underline">💡 Projects 💡</HashLink>
