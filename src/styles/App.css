@@ -3,12 +3,12 @@ html {
 }
 
 * {
-    font-family: 'Crimson Pro', serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 body {
     background-color: #fffbf5;
-    color: #38429d;
+    color: #2a2a2a;
 }
 
 footer {
@@ -18,20 +18,23 @@ footer {
 }
 
 /* media queries */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
     .about {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-    .contact {
+    .experience-header, .github {
+        display: flex;
         flex-direction: column;
-        align-items: center;
     }
-}
-
-@media only screen and (max-width: 992px) {
-    .title, .title-work, .contact-title {
+    .buttons {
+        margin-bottom: 15px;
+    }
+    .github img {
+        margin-bottom: 25px;
+    }
+    .title, .title-work {
         font-size: 50px;
     }
     .hero h1 {
@@ -40,65 +43,135 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    .girl, .flower {
-        width: 250px;
-        height: auto;
-    }
-
-    .hero img {
-        width: 200px;
-    }
-
-    .title, .title-work, .contact-title {
+    .title, .title-work {
         font-size: 40px;
+        text-align: center;
+    }
+
+    .experience-header, .github {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* HERO */
+    .hero img {
+        width: 40px;
     }
 
     .hero h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .hero p {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .hero .main-content {
+        top: 20%;
+    }
+
+    /* ABOUT */
+    .girl {
+        width: 280px;
+    }
+
+    .about p, li {
+        font-size: 16px;
+    }
+
+    /* EXPERIENCE */
+    .buttons button {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .buttons {
+        margin-bottom: 15px;
+    }
+
+    .company-logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .company, .project-title {
         font-size: 18px;
     }
 
-    .about p, li, .contact-words p {
-        font-size: 18px !important;
+    .collapsible .work-toggle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .date {
+        font-size: 14px;
     }
 
     .position {
-        font-size: 20px;
+        margin-top: 5px;
+        font-size: 16px;
     }
 
-    .company {
-        font-size: 18px;
+    .collapsible-content ul li {
+        font-size: 14px;
+        margin-left: -25px;
     }
 
     .skill {
         font-size: 14px;
     }
 
-    .collapsible img {
-        height: 12px;
-        width: 12px;
+    /* PROJECTS */
+    .github img {
+        width: 40px;
+        margin-bottom: 25px;
     }
 
-    .projects-title a {
+    .project-desc {
         font-size: 14px;
     }
 
-    .all-projects .intro-desc {
-        font-size: 18px;
-    }
-
-    .github {
-        font-size: 16px;
+    .project-collapsible .project-desc {
+        text-align: center;
     }
 
     .more-projects button {
         font-size: 16px;
     }
 
-    .hero, .about, .work, .projects, .all-projects, .contact {
+    .all-projects .intro-desc {
+        font-size: 14px;
+    }
+
+    .all-projects .project-name {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .links {
+        font-size: 14px;
+    }
+
+    .intro .title-work {
+        font-size: 30px !important;
+    }
+
+    .projects-title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project-collapsible .skills {
+        text-align: center;
+    }
+
+    .project-collapsible {
+        margin: 20px 0px;
+    }
+
+    .hero, .about, .work, .projects, .all-projects {
         padding: 50px;
     }
 
@@ -106,13 +179,16 @@ footer {
         margin: 0;
     }
 
-    .logo-nav img {
-        width: 40px;
-        height: 40px;
+    .overlay-content a {
+        font-size: 25px;
     }
 
     .line {
         height: 2px !important;
         width: 25px !important;
+    }
+
+    footer {
+        font-size: 14px;
     }
 }

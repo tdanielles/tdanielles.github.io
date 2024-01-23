@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Main/>}/>
           <Route path="/projects" element={<Allprojects/>}/>
       </Routes>
-      <footer>Created with ♡ by Trisha Sia, © 2023</footer>
+      <footer>Created with ❤️ by Trisha Sia, © 2024</footer>
     </>
     
     

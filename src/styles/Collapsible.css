@@ -6,48 +6,43 @@
 }
 
 .collapsible {
-    color: #38429d;
+    color: #2a2a2a;
     cursor: pointer;
     text-align: left;
     outline: none;
+    align-items: center;
 }
 
-.collapsible img {
+.work-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+}
+
+.collapsible .work-toggle {
     height: 20px;
     width: 20px;
-    color: white;
-}
-
-.content li {
-    font-size: 20px;
-}
-
-.active {
-    visibility: visible !important;
 }
 
 .skills {
     gap: 10px;
 }
 
-.position {
-    font-size: 25px;
-    margin: 0;
+.company {
+    font-size: 30px;
 }
 
-.company {
-    font-size: 22px;
-    font-weight: lighter;
-    margin: 5px 0px 15px 0px;
+.company-logo {
+    width: 60px;
 }
 
 .skill {
-    background-color: #38429d;
+    background-color: #7f98a3;
     padding: 5px 15px;
-    font-size: 16px;
-    border-radius: 12px;
+    font-size: 18px;
+    border-radius: 10px;
     color: #fffbf5;
-    font-weight: lighter;
     width: fit-content;
     display: inline-block;
     margin: 1px 5px 10px 0;
